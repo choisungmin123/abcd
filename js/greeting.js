@@ -49,8 +49,8 @@ function onClickLoginBtn(event){
  * h1요소 안에 인사말 텍스트를 추가하고, 히든 클래스 제거
  */
 function displayHello(argName){
-    hello.innerText = `hello ${argName}`;
-    //hello.classList.remove("hidden");
+    greeting.innerText = `hello ${argName}`;
+    //greeting.classList.remove("hidden");
     hello.classList.remove(HIDDEN_CLASSNAME);
   }
 /**
